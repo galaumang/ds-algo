@@ -1,0 +1,3 @@
+# Ignore IntelliJ Idea project setting directory
+.idea
+*.iml
