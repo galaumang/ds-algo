@@ -7,6 +7,7 @@
  */
 
 plugins {
+    id 'jacoco'
     // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
     id 'org.sonarqube' version '4.0.0.2929'
@@ -31,8 +32,17 @@ dependencies {
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
     testLogging {
         events "standardOut", "standardError", "failed", "skipped", "passed", "started"
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.required = true
+        xml.outputLocation = file('build/jacoco/report.xml')
+//        xml.destination = file('build/jacoco/report.xml')
     }
 }
 
@@ -42,5 +52,8 @@ sonarqube {
         property "sonar.organization", "galaumang"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.projectName", "DS Algo"
+        property("sonar.coverage.jacoco.xmlReportPath", "build/jacoco/report.xml")
     }
 }
+
+project.task(sonar).dependsOn(jacocoTestReport)
