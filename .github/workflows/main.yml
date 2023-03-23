@@ -2,9 +2,11 @@ name: build
 on:
   push:
     paths-ignore:
+      - 'problems/**'
+      - 'resources/**'
       - '.gitignore'
-      - 'LICENSE'
       - 'CONTRIBUTING.md'
+      - 'LICENSE'
       - 'README.md'
     branches: [main]
 jobs:
