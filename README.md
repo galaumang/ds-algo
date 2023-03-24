@@ -2,7 +2,7 @@
 <h1>Data-Structure & Algorithms</h1>
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/galaumang/ds-algo/main.yml?logo=github&style=flat-square)
-![Sonar Coverage](https://img.shields.io/sonar/coverage/ds-algo/main?logo=sonarcloud&server=https%3A%2F%2Fsonarcloud.io&style=flat-square)
+![Sonar Coverage](https://img.shields.io/sonar/coverage/ds-algo/main?logo=sonarcloud&server=https%3A%2F%2Fsonarcloud.io&style=flat-square&color=red)
 ![GitHub](https://img.shields.io/github/license/galaumang/ds-algo?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/galaumang/ds-algo?style=flat-square)
 
