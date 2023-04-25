@@ -22,8 +22,8 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-      - name: Build / Test / Sonar tasks
-        run: cd solutions ; gradle clean build sonar
+      - name: Gradle - Build / Test / Sonar tasks
+        run: cd solutions-java ; gradle clean build sonar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
