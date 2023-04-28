@@ -4,6 +4,7 @@ on:
     paths-ignore:
       - 'problems/**'
       - 'resources/**'
+      - 'solutions-cpp/**'
       - '.gitignore'
       - 'CONTRIBUTING.md'
       - 'LICENSE'
