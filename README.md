@@ -53,6 +53,10 @@ ways with different programming languages, along with programming and interview 
 
 <p></p>
 
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 Copyright &copy; 2022-2023 Umang Gala
 
