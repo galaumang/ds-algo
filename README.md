@@ -49,6 +49,7 @@ ways with different programming languages, along with programming and interview 
   | 7    | [Reverse Integer][7]                                  | [Java][7.java]       |
   | 556  | [Next Greater Element III][556]                       | [Java][556.java]     |
   | 1426 | [Counting ELements][1426]                             | [Java][1426.java]    |
+  | 2178 | [Maximum Split of Positive Even Integers][1426]       | [Java][2178.java]    |
 </details><p></p>
 
 <p></p>
@@ -91,3 +92,6 @@ GNU General Public License. A copy of the GNU General Public License is provided
 
 [1426]: https://leetcode.com/problems/counting-elements/
 [1426.java]: ./solutions-java/src/main/java/dsalgo/leetcode/CountingElements.java
+
+[2178]: https://leetcode.com/problems/maximum-split-of-positive-even-integers/
+[2178.java]: ./solutions-java/src/main/java/dsalgo/leetcode/MaximumEvenSplit.java
