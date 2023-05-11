@@ -1,8 +1,14 @@
-# macOS 
-.DS_Store
-
-# Ignore IntelliJ Idea project setting directory
+# IDE Specific - VS Code, IntelliJ Idea
+.vscode
 .idea
 *.iml
 
+# Operating System Specific - macOS
+.DS_Store
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
 **/bin/
