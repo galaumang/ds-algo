@@ -15,3 +15,4 @@ build
 
 # Python virtual environment
 solutions-py/dev
+solutions-py/**/__pycache__
