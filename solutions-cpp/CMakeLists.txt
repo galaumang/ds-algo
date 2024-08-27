@@ -16,8 +16,8 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 # Add the executables for the main application
-add_executable(TwoSumTest src/test/cpp/dsalgo/array/lc_0001_two_sum_test.cpp src/main/cpp/dsalgo/array/lc_0001_two_sum.cpp)
-add_executable(LC0387FirstUniqueCharTest src/test/cpp/dsalgo/string/lc_0387_first_unique_char_test.cpp src/main/cpp/dsalgo/string/lc_0387_first_unique_char.cpp)
+add_executable(TwoSumTest src/test/cpp/dsalgo/array/LC_0001_two_sum_test.cpp src/main/cpp/dsalgo/array/LC_0001_two_sum.cpp)
+add_executable(LC0387FirstUniqueCharTest src/test/cpp/dsalgo/string/LC_0387_first_unique_char_test.cpp src/main/cpp/dsalgo/string/LC_0387_first_unique_char.cpp)
 
 # Link Google Test libraries
 target_link_libraries(TwoSumTest gtest_main)
