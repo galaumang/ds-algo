@@ -1,4 +1,4 @@
-package dsalgo.leetcode;
+package dsalgo.array;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,14 +9,14 @@ import java.util.Map;
  *
  * @author Umang G
  */
-public class TwoSum {
+public class LC0001_TwoSum {
     /**
      * <p>
      * {@code TwoSum} instance should NOT be constructed in standard
      * programming, so its defined as private
      * </p>
      */
-    private TwoSum() {
+    private LC0001_TwoSum() {
     }
 
     /**
