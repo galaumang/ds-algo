@@ -25,18 +25,18 @@ class LC0001_TwoSumTest {
     @ParameterizedTest(name = "Brute Force Hash Table - {index} > {0}, {1} > ")
     @MethodSource("testCases")
     void testTwoSumBruteForce(int[] nums, int target, int[] expected) {
-        assertArrayEquals(expected, LC0001_TwoSum.twoSumBruteForce(nums, target));
+        assertArrayEquals(expected, LC0001TwoSum.twoSumBruteForce(nums, target));
     }
 
     @ParameterizedTest(name = "One-pass Hash Table - {index} > {0}, {1} > ")
     @MethodSource("testCases")
     void testTwoSumOnePassHashTable(int[] nums, int target, int[] expected) {
-        assertArrayEquals(expected, LC0001_TwoSum.twoSumOnePassHashTable(nums, target));
+        assertArrayEquals(expected, LC0001TwoSum.twoSumOnePassHashTable(nums, target));
     }
 
     @ParameterizedTest(name = "Two-pass Hash Table - {index} > {0}, {1} > ")
     @MethodSource("testCases")
     void testTwoSumTwoPassHashTable(int[] nums, int target, int[] expected) {
-        assertArrayEquals(expected, LC0001_TwoSum.twoSumTwoPassHashTable(nums, target));
+        assertArrayEquals(expected, LC0001TwoSum.twoSumTwoPassHashTable(nums, target));
     }
 }

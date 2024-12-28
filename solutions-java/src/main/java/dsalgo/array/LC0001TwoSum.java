@@ -9,14 +9,14 @@ import java.util.Map;
  *
  * @author Umang G
  */
-public class LC0001_TwoSum {
+public class LC0001TwoSum {
     /**
      * <p>
      * {@code TwoSum} instance should NOT be constructed in standard
      * programming, so its defined as private
      * </p>
      */
-    private LC0001_TwoSum() {
+    private LC0001TwoSum() {
     }
 
     /**
