@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
  *
  * @author Umang G
  */
-class LC0001_TwoSumTest {
+class LC0001TwoSumTest {
     private static Stream<Arguments> testCases() {
         return Stream.of(
                 Arguments.of(new int[] { 2, 7, 11, 15 }, 9, new int[] { 0, 1 }),
