@@ -1,6 +1,6 @@
 package dsalgo.string;
 
-public class LC0387_FirstUniqueCharacter {
+public class LC0387FirstUniqueCharacter {
   public int firstUniqChar(String s) {
     int[] hash = new int[26];
     int n = s.length();
