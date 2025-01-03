@@ -59,7 +59,7 @@ ways with different programming languages, along with programming and interview 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
-Copyright &copy; 2022-2023 Umang Gala
+Copyright &copy; 2022-2025 Umang Gala
 
 Data Structure & Algorithms is free repository to use; you can redistribute it and/or modify it under the terms of the 
 GNU General Public License. A copy of the GNU General Public License is provided in the file [LICENSE](LICENSE)
