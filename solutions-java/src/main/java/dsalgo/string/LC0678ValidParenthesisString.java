@@ -1,6 +1,6 @@
 package dsalgo.string;
 
-public class LC0678_ValidParenthesisString {
+public class LC0678ValidParenthesisString {
   public boolean checkValidString(String s) {
     int lo = 0, hi = 0;
     for (char c : s.toCharArray()) {
