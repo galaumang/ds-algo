@@ -1,6 +1,6 @@
 package dsalgo.array;
 
-public class LC0033_SearchRotatedSortedArray {
+public class LC0033SearchRotatedSortedArray {
   public int search(int[] nums, int target) {
     int left = 0;
     int right = nums.length - 1;
