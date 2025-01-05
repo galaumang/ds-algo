@@ -1,6 +1,6 @@
 package dsalgo.array;
 
-public class LC0238_ProductExceptSelf {
+public class LC0238ProductExceptSelf {
   public int[] productExceptSelf(int[] nums) {
     int l = nums.length;
     int[] ans = new int[l];
