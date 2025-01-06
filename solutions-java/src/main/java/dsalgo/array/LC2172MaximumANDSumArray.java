@@ -2,7 +2,7 @@ package dsalgo.array;
 
 import java.util.Arrays;
 
-public class LC2172_MaximumANDSumArray {
+public class LC2172MaximumANDSumArray {
   public int maximumANDSum(int[] nums, int numSlots) {
 		int n = 2 * numSlots;
 		int nSelected = 1 << n;
