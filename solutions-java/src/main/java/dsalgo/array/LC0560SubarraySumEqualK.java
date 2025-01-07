@@ -1,6 +1,6 @@
 package dsalgo.array;
 
-public class LC0560_SubarraySumEqualK {
+public class LC0560SubarraySumEqualK {
   public int subarraySum(int[] nums, int k) {
     int ans = 0;
     for (int start = 0; start < nums.length; start++) {
