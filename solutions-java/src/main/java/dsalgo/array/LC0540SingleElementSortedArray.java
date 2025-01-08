@@ -1,6 +1,6 @@
 package dsalgo.array;
 
-public class LC0540_SingleElementSortedArray {
+public class LC0540SingleElementSortedArray {
   public int singleNonDuplicate(int[] nums) {
     int n = nums.length;
     if (n == 1)
