@@ -3,7 +3,7 @@ package dsalgo.array;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LC0525_ContiguousArray {
+public class LC0525ContiguousArray {
   public static int findMaxLength(int[] nums) {
     Map<Integer, Integer> map = new HashMap<>();
     map.put(0, -1);

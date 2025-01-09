@@ -9,7 +9,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-public class LC0525_ContiguousArrayTest {
+public class LC0525ContiguousArrayTest {
   private static Stream<Arguments> testCases() {
     return Stream.of(
         Arguments.of(new int[] { 0, 1 }, 2),
@@ -20,6 +20,6 @@ public class LC0525_ContiguousArrayTest {
   @ParameterizedTest(name = "{index} > {arguments}")
   @MethodSource("testCases")
   void findMaxLengthTest(int[] nums, int expected) {
-    assertEquals(expected, LC0525_ContiguousArray.findMaxLength(nums));
+    assertEquals(expected, LC0525ContiguousArray.findMaxLength(nums));
   }
 }
