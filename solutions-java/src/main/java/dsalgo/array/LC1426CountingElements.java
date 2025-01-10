@@ -3,14 +3,14 @@ package dsalgo.leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
-public class CountingElements {
+public class LC1426CountingElements {
     /**
      * <p>
      * {@code CountingElements} instance should NOT be constructed in standard
      * programming, so its defined as private
      * </p>
      */
-    private CountingElements() {
+    private LC1426CountingElements() {
     }
 
     /**

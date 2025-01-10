@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * @author Umang G
  */
-class CountingElementsTest {
+class LC1426CountingElementsTest {
     private static Stream<Arguments> testCases() {
         return Stream.of(
                 Arguments.of(new int[] { 1, 2, 3 }, 2),
@@ -25,6 +25,6 @@ class CountingElementsTest {
     @ParameterizedTest(name = "{index} > {0} > ")
     @MethodSource("testCases")
     void countElementsTest(int[] inputElements, int expected) {
-        assertEquals(expected, CountingElements.countElements(inputElements));
+        assertEquals(expected, LC1426CountingElements.countElements(inputElements));
     }
 }
