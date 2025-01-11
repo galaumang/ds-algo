@@ -1,4 +1,4 @@
-package dsalgo.leetcode;
+package dsalgo.array;
 
 import java.util.HashSet;
 import java.util.Set;
