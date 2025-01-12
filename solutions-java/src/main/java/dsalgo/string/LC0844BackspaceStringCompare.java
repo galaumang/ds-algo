@@ -1,6 +1,6 @@
 package dsalgo.leetcode;
 
-public class BackspaceStringCompare {
+public class LC0844BackspaceStringCompare {
     public boolean backspaceCompare(String S, String T) {
         int i = S.length() - 1;
         int j = T.length() - 1;
